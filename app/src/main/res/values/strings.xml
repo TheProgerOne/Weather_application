@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="hint_user_field">Write your city</string>
+    <string name="button_text">Press</string>
+    <string name="text_error">Please write a city</string>
+</resources>
