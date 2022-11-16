@@ -175,7 +175,7 @@ public class MainActivity extends AppCompatActivity {
                     image.setImageResource(R.drawable.broken);
                 }
 
-                if(n>=15 && n<=25 && newid==800 || newid==801 || newid == 802 || newid ==803 || newid==804) result3_info.setText("It is a good day. Comfortable temperature");
+                if(n>=15 && n<=25 && (newid==800 || newid==801 || newid == 802 || newid ==803 || newid==804)) result3_info.setText("It is a good day. Comfortable temperature");
                 else if(n<15) result3_info.setText("it is cold");
                 else if(n>25) result3_info.setText("It is hot");
                 else result3_info.setText("Good temp but bad weather");
